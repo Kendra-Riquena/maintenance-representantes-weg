@@ -35,6 +35,10 @@ main h1 {
     font-weight: 700;
 }
 
+main p span {
+    font-weight: 600;
+}
+
 main .links {
     display: flex;
     gap: 24px;
@@ -61,4 +65,45 @@ footer img {
 
 footer p {
     font-size: 14px;
+}
+
+@media screen and (min-width:768px) {
+    body {
+        margin: 48px 0;
+    }
+
+    header .logo {
+        width: 250px;
+        margin-bottom: 32px;
+    }
+
+    main {
+        gap: 32px;
+    }
+
+    main h1 {
+        font-size: 40px;
+        margin-bottom: 32px;
+    }
+
+    main p {
+        font-size: 24px;
+    }
+
+    main .icon-link {
+        font-size: 60px;
+    }
+
+    main img {
+        width: 320px;
+        margin-bottom: 32px;
+    }
+
+    footer img {
+        width: 90px;
+    }
+
+    footer p {
+        font-size: 20px;
+    }
 }
